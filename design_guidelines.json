@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "name": "NOVA DIGITAL",
+    "type": "E-commerce & Digital Wealth Tools Store",
+    "theme": "Luxury Black & Metallic Gold",
+    "supported_languages": ["en", "ar"],
+    "default_language": "en",
+    "rtl_support": true,
+    "currency": "AED",
+    "featured_product": {
+      "name_en": "NOVA MONEY PLANNER",
+      "name_ar": "مخطط نُوفَا المالي الرقمي",
+      "regular_price": 39,
+      "launch_price": 25,
+      "format": "Interactive Digital PDF (GoodNotes, Notability, Adobe Reader, Print Ready)",
+      "bilingual": true
+    }
+  },
+  "typography": {
+    "english": {
+      "headline_font": "'Cinzel', 'Playfair Display', serif",
+      "body_font": "'Plus Jakarta Sans', 'Inter', sans-serif",
+      "mono_font": "'JetBrains Mono', monospace"
+    },
+    "arabic": {
+      "headline_font": "'Tajawal', 'Cairo', sans-serif",
+      "body_font": "'Tajawal', 'Cairo', sans-serif",
+      "line_height": "1.7",
+      "scaling_offset": "+1px to +2px for parity"
+    },
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700;800;900&display=swap",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-neutral-300",
+      "overline": "text-xs uppercase tracking-[0.25em] text-amber-400 font-semibold"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#050505",
+      "secondary": "#0A0A0B",
+      "card_bg": "#121214",
+      "card_hover": "#18181C",
+      "glass": "rgba(10, 10, 12, 0.75)"
+    },
+    "gold_accents": {
+      "primary": "#D4AF37",
+      "light": "#E5C158",
+      "champagne": "#F3E5AB",
+      "dark": "#997A15",
+      "gradient": "linear-gradient(135deg, #FFE699 0%, #D4AF37 45%, #AA7C11 100%)",
+      "shimmer": "linear-gradient(90deg, #D4AF37 0%, #FFF3C4 50%, #D4AF37 100%)"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "muted": "#94A3B8",
+      "subtle": "#64748B",
+      "gold_text": "#E5C158",
+      "inverse": "#050505"
+    },
+    "borders": {
+      "subtle": "rgba(212, 175, 55, 0.15)",
+      "medium": "rgba(212, 175, 55, 0.35)",
+      "glow": "rgba(229, 193, 88, 0.60)"
+    },
+    "status": {
+      "success": "#10B981",
+      "error": "#EF4444",
+      "whatsapp": "#25D366",
+      "stripe": "#635BFF"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/75 border border-amber-500/20 shadow-[0_8px_32px_rgba(0,0,0,0.5)]",
+    "tracing_beam": "relative overflow-hidden before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-amber-500/0 before:via-amber-400/50 before:to-amber-500/0",
+    "gold_glow": "shadow-[0_0_25px_rgba(212,175,55,0.25)]",
+    "text_gold_gradient": "bg-clip-text text-transparent bg-gradient-to-r from-[#FFE699] via-[#D4AF37] to-[#AA7C11]",
+    "gold_button_gradient": "bg-gradient-to-r from-[#D4AF37] via-[#E5C158] to-[#AA7C11] hover:brightness-110 active:scale-[0.98] transition-all text-black font-bold"
+  },
+  "layout_and_bento": {
+    "header": {
+      "fixed": true,
+      "height": "h-20",
+      "background": "backdrop-blur-xl bg-black/80 border-b border-amber-500/20 z-50",
+      "elements": ["SVG Luxury Logo Mark", "Navigation Links (Home, Product, Bento Features, About, Contact)", "Language Switcher (EN/AR toggle)", "Cart Drawer Trigger with count badge"]
+    },
+    "hero": {
+      "type": "Kinetic Hero with Masked Reveal & 3D Interactive Mockup",
+      "features": [
+        "Gold glow mesh overlay in background",
+        "Line-by-line staggered text reveal animation",
+        "3D Perspective tilt planner mockup with interactive page turner/tabs",
+        "Dual CTA: Primary Gold 'Buy Now AED 25' + Secondary 'Watch Preview'",
+        "Live sales ticker badge: '1,420+ Digital Downloads in UAE & GCC'"
+      ]
+    },
+    "editorial_marquee": {
+      "text_en": "EXECUTIVE FINANCIAL FREEDOM • BILINGUAL ARABIC & ENGLISH • AUTOMATED WEALTH TRACKING • AED 25 LAUNCH OFFER • INSTANT DIGITAL DELIVERY • GOODNOTES & NOTABILITY READY •",
+      "text_ar": "حرية مالية متكاملة • دعم كامل باللغتين العربية والإنجليزية • تتبع الميزانية والثروة • عرض الإطلاق 25 درهم • تحميل رقمي فوري •",
+      "speed": "60s continuous slow drift",
+      "style": "bg-gradient-to-r from-amber-950/40 via-black to-amber-950/40 border-y border-amber-500/20 py-4 text-xs font-mono text-amber-300 tracking-[0.2em]"
+    },
+    "bento_grid": {
+      "layout": "grid-cols-1 md:grid-cols-12 gap-6 p-4 md:p-8 max-w-7xl mx-auto",
+      "cards": [
+        {
+          "id": "bilingual_core",
+          "span": "col-span-12 md:col-span-8",
+          "title": "Dual-Language Mastery / ثنائية اللغة المتكاملة",
+          "description": "Seamlessly structured in both Arabic (RTL) & English for effortless monthly planning.",
+          "badge": "Bilingual Feature"
+        },
+        {
+          "id": "instant_download",
+          "span": "col-span-12 md:col-span-4",
+          "title": "Instant Delivery / تسليم فوري",
+          "description": "Receive high-resolution interactive PDF directly in your inbox and download screen after purchase.",
+          "badge": "Digital File"
+        },
+        {
+          "id": "networth_tracker",
+          "span": "col-span-12 md:col-span-4",
+          "title": "Net Worth & Asset Dashboard / حاسبة صافي الثروة",
+          "description": "Track real estate, stocks, crypto, cash reserves, and liabilities with automatic formulas.",
+          "badge": "Automated"
+        },
+        {
+          "id": "snowball_debt",
+          "span": "col-span-12 md:col-span-8",
+          "title": "Debt Snowball & Savings Target / استراتيجية تسديد الديون",
+          "description": "Visual path to zero debt and accelerated savings goals tailored for GCC lifestyles.",
+          "badge": "Financial Freedom"
+        }
+      ]
+    }
+  },
+  "checkout_and_cart": {
+    "cart_drawer": {
+      "type": "Slide-over right/left drawer matching RTL/LTR",
+      "features": ["Cart item summary", "Quantity counter", "Discount coupon code (e.g. 'NOVA2026' for 10% extra off)", "Live total calculation", "Dual Checkout triggers: Stripe Secure Payment & Direct WhatsApp Order"]
+    },
+    "payment_modal_stripe": {
+      "mock_mode": "Mocked Stripe Card Element checkout modal with card input fields, name, email, instant processing simulation, and immediate redirection to Success Download Screen."
+    },
+    "whatsapp_integration": {
+      "prefilled_message_en": "Hello NOVA DIGITAL, I would like to purchase NOVA MONEY PLANNER (Launch Price: AED 25). Please guide me.",
+      "prefilled_message_ar": "مرحباً نُوفَا ديجيتال، يرغب بشراء مخطط نُوفَا المالي الرقمي بسعر الإطلاق (25 درهم). يرجى تزويدي بالتفاصيل."
+    },
+    "success_page": {
+      "features": [
+        "Order Confirmation Card with gold checkmark animation",
+        "Direct Instant Download button for PDF file",
+        "Email Receipt summary",
+        "Step-by-step PDF Import Guide for GoodNotes / Notability / iPad / Android",
+        "Customer Support WhatsApp link"
+      ]
+    }
+  },
+  "image_urls": {
+    "planner_mockup_1": "https://images.unsplash.com/photo-1780535393512-5a85b6f22337?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBnb2xkJTIwYmxhY2slMjBkaWdpdGFsJTIwcGxhbm5lciUyMGZpbmFuY2UlMjBub3RlYm9vayUyMG1vY2t1cHxlbnwwfHx8fDE3OTMzMzQzODR8MA&ixlib=rb-4.1.0&q=85",
+    "planner_mockup_2": "https://images.unsplash.com/photo-1553034545-32d4cd2168f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBnb2xkJTIwYmxhY2slMjBkaWdpdGFsJTIwcGxhbm5lciUyMGZpbmFuY2UlMjBub3RlYm9vayUyMG1vY2t1cHxlbnwwfHx8fDE3OTMzMzQzODR8MA&ixlib=rb-4.1.0&q=85",
+    "background_gold_strands": "https://images.unsplash.com/photo-1761437856376-2ce1c483343b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbHV4dXJ5JTIwZ29sZCUyMHBhdHRlcm4lMjB0ZXh0dXJlJTIwYmFja2dyb3VuZCUyMGFic3RyYWN0fGVufDB8fHx8MTc5MzMzNDQwMHww&ixlib=rb-4.1.0&q=85",
+    "luxury_desk": "https://images.unsplash.com/photo-1764410481612-7544525b2991?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHx0YWJsZXQlMjBwbGFubmVyJTIwZmluYW5jaWFsJTIwY2hhcnQlMjBsdXh1cnklMjBkZXNrfGVufDB8fHx8MTc5MzMzNDQwMHww&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_and_accessibility": {
+    "data_testid_rules": "All interactive elements (buttons, inputs, links, modals, language toggle, buy button, cart items, stripe checkout inputs) MUST have unique data-testid attributes in kebab-case.",
+    "sample_testids": [
+      "data-testid='language-toggle-button'",
+      "data-testid='header-cart-button'",
+      "data-testid='hero-buy-now-button'",
+      "data-testid='product-add-to-cart-button'",
+      "data-testid='cart-drawer-checkout-button'",
+      "data-testid='cart-drawer-whatsapp-button'",
+      "data-testid='stripe-modal-pay-button'",
+      "data-testid='success-download-pdf-button'",
+      "data-testid='contact-form-submit-button'"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Load Google Fonts link for 'Cinzel', 'Tajawal', 'Cairo', and 'Plus Jakarta Sans' in index.html or top of index.css.",
+    "Ensure global HTML element updates `dir='rtl'` when language is switched to Arabic, and `dir='ltr'` when English.",
+    "Use Framer Motion for line-by-line kinetic hero entrance, scroll reveals, modal popovers, and cart drawer sliding.",
+    "Implement high-contrast gold buttons (#D4AF37 with dark hover state) so text and prices are easily readable.",
+    "Build a complete single-page store experience plus seamless full-screen Checkout / Download Success view or drawer.",
+    "Ensure Stripe checkout is gracefully MOCKED with interactive realistic fields and instant processing feedback.",
+    "Include direct WhatsApp order link with pre-filled message support for GCC buyers.",
+    "Every key interactive element must include explicit data-testid attributes."
+  ]
+}
